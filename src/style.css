@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    padding: 70px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+#quote {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: blue; /* You can change this to whatever color you want */
+    text-align: center;
+}
+
+
+
+#container{
+    text-align: center;
+    padding: 40px;
+    width: 400px;
+    height: 150px;
+    background-color: white;
+
+    border: 2px solid #acacac;
+
+    cursor: pointer;
+    margin: 4px 2px;
+    display: inline-block;
+    transition: background-color, color; /* Define the properties to transition */
+    transition-duration: 0.5s;
+    font-size : 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#container:hover{
+    background-color: #4e4e4e;
+    color: white;
+}
+
+
+
+
